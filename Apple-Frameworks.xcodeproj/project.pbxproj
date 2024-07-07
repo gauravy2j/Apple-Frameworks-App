@@ -18,6 +18,7 @@
 		5A152A6B2C31A346001151B1 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A152A6A2C31A346001151B1 /* DetailView.swift */; };
 		5A152A6D2C31A467001151B1 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A152A6C2C31A467001151B1 /* AppButton.swift */; };
 		5A90B33E2C3AAE450042C390 /* FrameworkGridViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A90B33D2C3AAE450042C390 /* FrameworkGridViewViewModel.swift */; };
+		5A90B3402C3ACAC90042C390 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A90B33F2C3ACAC90042C390 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		5A152A6A2C31A346001151B1 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		5A152A6C2C31A467001151B1 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
 		5A90B33D2C3AAE450042C390 /* FrameworkGridViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewViewModel.swift; sourceTree = "<group>"; };
+		5A90B33F2C3ACAC90042C390 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				5A152A6A2C31A346001151B1 /* DetailView.swift */,
 				5A152A6C2C31A467001151B1 /* AppButton.swift */,
 				5A90B33D2C3AAE450042C390 /* FrameworkGridViewViewModel.swift */,
+				5A90B33F2C3ACAC90042C390 /* SafariView.swift */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				5A152A672C3174BE001151B1 /* Framework.swift in Sources */,
 				5A152A3D2C317444001151B1 /* Apple_FrameworksApp.swift in Sources */,
 				5A152A6D2C31A467001151B1 /* AppButton.swift in Sources */,
+				5A90B3402C3ACAC90042C390 /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
