@@ -17,6 +17,7 @@
 		5A152A692C317940001151B1 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A152A682C317940001151B1 /* FrameworkGridView.swift */; };
 		5A152A6B2C31A346001151B1 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A152A6A2C31A346001151B1 /* DetailView.swift */; };
 		5A152A6D2C31A467001151B1 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A152A6C2C31A467001151B1 /* AppButton.swift */; };
+		5A90B33E2C3AAE450042C390 /* FrameworkGridViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A90B33D2C3AAE450042C390 /* FrameworkGridViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		5A152A682C317940001151B1 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		5A152A6A2C31A346001151B1 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		5A152A6C2C31A467001151B1 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		5A90B33D2C3AAE450042C390 /* FrameworkGridViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				5A152A662C3174BE001151B1 /* Framework.swift */,
 				5A152A6A2C31A346001151B1 /* DetailView.swift */,
 				5A152A6C2C31A467001151B1 /* AppButton.swift */,
+				5A90B33D2C3AAE450042C390 /* FrameworkGridViewViewModel.swift */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A90B33E2C3AAE450042C390 /* FrameworkGridViewViewModel.swift in Sources */,
 				5A152A692C317940001151B1 /* FrameworkGridView.swift in Sources */,
 				5A152A6B2C31A346001151B1 /* DetailView.swift in Sources */,
 				5A152A672C3174BE001151B1 /* Framework.swift in Sources */,
