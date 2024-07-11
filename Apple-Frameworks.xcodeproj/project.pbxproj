@@ -19,6 +19,7 @@
 		5A152A6D2C31A467001151B1 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A152A6C2C31A467001151B1 /* AppButton.swift */; };
 		5A90B33E2C3AAE450042C390 /* FrameworkGridViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A90B33D2C3AAE450042C390 /* FrameworkGridViewViewModel.swift */; };
 		5A90B3402C3ACAC90042C390 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A90B33F2C3ACAC90042C390 /* SafariView.swift */; };
+		5AC5D64D2C3FB227007293DD /* DismissButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC5D64C2C3FB227007293DD /* DismissButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		5A152A6C2C31A467001151B1 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
 		5A90B33D2C3AAE450042C390 /* FrameworkGridViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewViewModel.swift; sourceTree = "<group>"; };
 		5A90B33F2C3ACAC90042C390 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		5AC5D64C2C3FB227007293DD /* DismissButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,14 +107,11 @@
 			isa = PBXGroup;
 			children = (
 				5A152A3C2C317444001151B1 /* Apple_FrameworksApp.swift */,
-				5A152A682C317940001151B1 /* FrameworkGridView.swift */,
+				5AC5D64E2C3FB3C7007293DD /* Views */,
+				5AC5D6512C3FB458007293DD /* Model */,
+				5AC5D6522C3FB46A007293DD /* ViewModel */,
 				5A152A402C317447001151B1 /* Assets.xcassets */,
 				5A152A422C317447001151B1 /* Preview Content */,
-				5A152A662C3174BE001151B1 /* Framework.swift */,
-				5A152A6A2C31A346001151B1 /* DetailView.swift */,
-				5A152A6C2C31A467001151B1 /* AppButton.swift */,
-				5A90B33D2C3AAE450042C390 /* FrameworkGridViewViewModel.swift */,
-				5A90B33F2C3ACAC90042C390 /* SafariView.swift */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
@@ -140,6 +139,50 @@
 				5A152A592C317447001151B1 /* Apple_FrameworksUITestsLaunchTests.swift */,
 			);
 			path = "Apple-FrameworksUITests";
+			sourceTree = "<group>";
+		};
+		5AC5D64E2C3FB3C7007293DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5AC5D64F2C3FB425007293DD /* Screens */,
+				5AC5D6502C3FB445007293DD /* Buttons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5AC5D64F2C3FB425007293DD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5A152A682C317940001151B1 /* FrameworkGridView.swift */,
+				5A152A6A2C31A346001151B1 /* DetailView.swift */,
+				5A90B33F2C3ACAC90042C390 /* SafariView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5AC5D6502C3FB445007293DD /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				5AC5D64C2C3FB227007293DD /* DismissButtonView.swift */,
+				5A152A6C2C31A467001151B1 /* AppButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		5AC5D6512C3FB458007293DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A152A662C3174BE001151B1 /* Framework.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AC5D6522C3FB46A007293DD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5A90B33D2C3AAE450042C390 /* FrameworkGridViewViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +320,7 @@
 				5A152A6B2C31A346001151B1 /* DetailView.swift in Sources */,
 				5A152A672C3174BE001151B1 /* Framework.swift in Sources */,
 				5A152A3D2C317444001151B1 /* Apple_FrameworksApp.swift in Sources */,
+				5AC5D64D2C3FB227007293DD /* DismissButtonView.swift in Sources */,
 				5A152A6D2C31A467001151B1 /* AppButton.swift in Sources */,
 				5A90B3402C3ACAC90042C390 /* SafariView.swift in Sources */,
 			);
