@@ -20,6 +20,7 @@
 		5A90B33E2C3AAE450042C390 /* FrameworkGridViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A90B33D2C3AAE450042C390 /* FrameworkGridViewViewModel.swift */; };
 		5A90B3402C3ACAC90042C390 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A90B33F2C3ACAC90042C390 /* SafariView.swift */; };
 		5AC5D64D2C3FB227007293DD /* DismissButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC5D64C2C3FB227007293DD /* DismissButtonView.swift */; };
+		5AC5D6582C411A27007293DD /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC5D6572C411A27007293DD /* FrameworkTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		5A90B33D2C3AAE450042C390 /* FrameworkGridViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewViewModel.swift; sourceTree = "<group>"; };
 		5A90B33F2C3ACAC90042C390 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		5AC5D64C2C3FB227007293DD /* DismissButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButtonView.swift; sourceTree = "<group>"; };
+		5AC5D6572C411A27007293DD /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				5A152A682C317940001151B1 /* FrameworkGridView.swift */,
 				5A152A6A2C31A346001151B1 /* DetailView.swift */,
 				5A90B33F2C3ACAC90042C390 /* SafariView.swift */,
+				5AC5D6572C411A27007293DD /* FrameworkTitleView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A90B33E2C3AAE450042C390 /* FrameworkGridViewViewModel.swift in Sources */,
+				5AC5D6582C411A27007293DD /* FrameworkTitleView.swift in Sources */,
 				5A152A692C317940001151B1 /* FrameworkGridView.swift in Sources */,
 				5A152A6B2C31A346001151B1 /* DetailView.swift in Sources */,
 				5A152A672C3174BE001151B1 /* Framework.swift in Sources */,
